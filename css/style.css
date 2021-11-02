@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 60px 0;
+}
+
+/* ===================================
+        Navigation Style
+===================================== */
+.custom-nav {
+    background-color: #74ACDF;
+}
+
+.custom-nav .logo:focus,
+.custom-nav .logo {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-nav .logo:hover:focus,
+.custom-nav .logo:hover {
+    color: #FFF;
+}
+
+.custom-nav .custom-nav-item {
+    margin-left: 20px;
+}
+
+.custom-nav .custom-nav-item .custom-nav-link,
+.custom-nav .custom-nav-item .custom-nav-link.active,
+.custom-nav .custom-nav-item .custom-nav-link:focus {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-nav .custom-nav-item .custom-nav-link:hover,
+.custom-nav .custom-nav-item .custom-nav-link:hover.active,
+.custom-nav .custom-nav-item .custom-nav-link:hover:focus {
+    color: #F6B40E;
+}
+
+/* ===================================
+        Banner Style
+===================================== */
+.banner {
+    background-image: url("../images/banner-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 120px 0 80px;
+}
+
+.banner-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2c2c54;
+    margin-bottom: 24px;
+}
+
+.banner-info p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3d3d3d;
+}
+
+/* ===================================
+        Players Style
+===================================== */
+.players {
+
+    background-color: #f6f6f6;
+}
+
+.section-title {
+    font-size: 40px;
+    color: #2c2c54;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.players .player-card {
+    border-radius: 10px;
+}
+
+.player-card .player-card-body .players-number {
+    font-size: 80px;
+    font-weight: 700;
+    color: #c7c7c7;
+}
+
+.player-card .player-card-body .palyers-name-position {
+    margin-left: 10px;
+}
+
+.player-card .player-card-body .palyers-name-position h5 {
+    color: #e7c334;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.player-card .player-card-body .palyers-name-position p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .8);
+}
+
+/* ===================================
+        Highlights Style
+===================================== */
+.highlights-card {
+    border-radius: 10px;
+    border: 1px solid #74ACDF;
+    transition: all .5s ease-in-out;
+}
+
+.highlights-card:hover {
+    box-shadow: 5px 5px 10px grey;
+    border-color: #e7c334;
+}
+
+.highlights-card img {
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.highlights-card .highlights-card-body .comment {
+    color: #707070;
+    text-transform: uppercase;
+    font-family: Ubuntu, Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.highlights-card .highlights-card-body .date {
+    font-size: 15px;
+    color: #707070;
+    text-transform: uppercase;
+}
+
+.highlights-card .highlights-card-body h5 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .8);
+    margin: 16px 0 0;
+}
+
+/* ===================================
+        Gallery Style
+===================================== */
+.gallery .container-fluid {
+    margin: 0px;
+}
+
+.gallery .col-lg-3 {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+/* ================================
+        Responsive
+=================================== */
+@media (max-width:991px) {
+    .navbar-light .navbar-toggler {
+        color: #74ACDF;
+        border-color: #74ACDF;
+        border-radius: 0.5rem;
+    }
+    .navbar-toggler {
+        background-color: #FFF;
+    }
+}
+
+@media (max-width:767px) {
+    .banner-info {
+        margin-top: 40px;
+    }
+}
